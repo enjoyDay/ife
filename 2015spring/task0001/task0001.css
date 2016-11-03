@@ -1,0 +1,191 @@
+<style type="text/css">
+ 
+ h1 {style:"color:blue";}
+ h2 {font-size:14px;	
+    }
+ .para  {font-size:12px;/*字体大小*/
+	color:yellow;/*字颜色*/
+	background-color:black;/*背景色*/
+	text-indent:10%;/*文本缩进*/
+	text-transform:uppercase;/*文本转换*/
+	text-decoration:underline;/*文本修饰*/
+	text-align:center;/*文本对齐*/
+	word-spacing:20px;/*字符间隔*/
+	white-space:pre-wrap;/*空白间隔处理*/
+	line-height:1.5;/*行高*/
+	font-family:Times New Roman;/*字体类型*/
+	font-weight:700;/*字体大小*/
+	padding:-9px/*内边距*/
+	}
+ img {border:2px solid red;}
+ /*
+
+ 下面是两种居中方法
+ div {background:red;
+ width:960px;
+ text-align:center;
+ margin:0px auto;
+ }
+ div {background:red;
+ width:960px;
+ margin-left:50%;
+ left:-width/2;  
+*/
+
+
+/*实现一个可复用的高度和宽度都自适应的圆角矩形
+  .bor div { height: 1px; }
+
+  .b1 {
+    margin: 0 3px;
+    background-color: black;
+   }
+
+  .b2,
+  .b3,
+  .b4,
+  .mid {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .b2 {
+    margin: 0 2px;
+  }
+
+  .b3 {
+    margin: 0 1px;
+  }
+
+  .b4 {
+    margin: 0 1px;
+  }
+
+.mid p 
+    {
+  margin: 0;
+  padding:0 10px;
+  font-size: 12px;
+  line-height: 24px;
+  white-space: pre-wrap;
+    }
+}
+
+@media(max-width:2000px)
+{
+	.container
+	           {border:1px solid #00ff66;
+			   width:80%;
+			   text-align:center;
+			   margin:0 auto;
+			   }
+}
+*/
+/*实现两列布局
+
+.col_1
+    {
+	    width:100px;
+		height:200px;
+		background-color:red;
+		float:left;
+		
+	}
+.col_2
+	{
+		margin:auto;/*或者用margin-left:100px////////第二种方法是使用定位，col1{position:absulte;left:0px}  col3{posiiton:absulte;right:0px;}
+		height:200px;
+		background:blue;
+		
+		
+
+	}
+
+*/
+/*实现两列布局
+.col_1
+    {
+	    width:100px;
+		float:left;
+		background:red;
+		height:200px;
+		border-right: 2px solid
+	}
+
+.col_3
+	{
+		width:100px;
+		height:200px;
+		background:blue;
+		float:right;
+		border-left: 2px solid   设置浮动的时候是有顺序的
+	}
+.col_2
+	{
+		height:200px;
+		margin-right:100px;
+		margin-left:100px;
+		background:orange;
+		
+	}
+*/
+
+/*
+.rec0
+	{
+		float:left;
+		background:red;
+		border:2px solid #00ff33;
+		overflow:hidden;   /*如何让父容器包围子元素：第一种：在父容器上设置 overflow:auto 或者hidden可以让它自动包含子元素，从而具有了实际的height值
+			 										     第二种：在子元素的最下面加上一个 空元素，并且设置clear:both，但是会增加没意义的元素，一般会在最下面加一个空元素
+													     第三种：结合clear属性，使用clearfix通常搭配 :before 或者 :after 伪元素使用。使用伪元素就是在包含浮动元素的父容器的前面或者后面创			
+														 造一个隐藏的元素。通过对:before 伪元素使用 display:table 来创建一个匿名的table-cell元素，从而防止子元素的top margin消失。			
+														 这一招在IE6和7中具有一致的效果。同样的，通过设置:after 伪元素来防止子元素的bottom margin消失。另外，需要对父容器使用			
+														 *zoom 属性触发hasLayout机制来解决IE6和7的一致性。hasLayout机制决定了元素应该怎样渲染和框住它的内容，以及元素间的位置关系 
+.rec0:before,
+.rec0:after
+		{
+			content:"";
+			display:table;
+		}
+.rec0:after
+		{
+			clear:both;
+		}
+.rec0
+		{	
+			background:red;
+			border:2px solid #00ff33;
+			*zoom:1;
+
+		}
+.rec1
+		{
+			float:left;
+			background:blue;
+			width:100px;
+			height:100px;
+			border:2px solid #000000;
+			margin:20px;	
+		}
+*/
+/*
+#box
+	{
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:flex-start;
+		background:red;
+	}	
+.littlebox
+	{
+		width:100px;
+		height:100px;
+		margin:10px;		
+		background:blue;
+		list-style-type:none;
+	}
+*/
+</style>
+ </style>
