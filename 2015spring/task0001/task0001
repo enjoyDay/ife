@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="task0001.css">
+  
+</head>
+<body>
+
+<h1>MyGithubAcountEnjoyDay</h1>
+<ul>
+	<li><a href="task0001.html" />HomePage</a></li>
+	<li><a href="http://weibo.com/2495561513/profile?topnav=1&wvr=6&is_all=1">Blog</a></li>
+</ul>
+<h2>this is second head</h2>
+  <p class="para">this is a paragrph,测试是   上课就分手了    联发科；阿的<br>似懂非懂</p> 
+<img src="bd_logo1.png" alt="not open">
+
+<div>
+	sdf
+</div>
+<div class="bor">
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+</div>
+
+<div class="mid">
+   <p>不使用border-radius的情况下实现一个可复用的高度和宽度都自适应的圆角矩形</p>
+</div>
+
+<div class="bor">
+    <div class="b4"></div>
+    <div class="b3"></div>
+    <div class="b2"></div>
+    <div class="b1"></div> 
+</div>
+  
+
+<p class="container"></p>
+<div class="col">
+	<div class="col_1">col1</div>
+	<div class="col_3">col3</div>
+    <div class="col_2">col2</div>
+</div>
+<!-- 浮动布局 -->
+<div class="rec0">
+	<div class="rec1"></div>
+	<div class="rec1"></div>
+	<div class="rec1"></div>
+	<div class="rec1"></div>
+	<div class="rec1"></div>
+	<div class="rec1"></div>
+</div>
+<!-- flexbox 弹性模型 -->
+<ul id="box" class="box">
+	<li class="littlebox"></li>
+	<li class="littlebox"></li>
+	<li class="littlebox"></li>
+	<li class="littlebox"></li>
+	<li class="littlebox"></li>
+	<li class="littlebox"></li>
+</ul>
+
+
+ </body>
+</html>
